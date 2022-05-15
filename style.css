@@ -1,0 +1,116 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    background-color: purple;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+nav ul {
+    display: inline-flex;
+}
+
+nav ul li a {
+    padding: 15px;
+    color: white;
+}
+
+#signIn a {
+    color: white;
+    margin: 5px;
+}
+#signIn>button{
+    margin: 5px;
+}
+
+#signIn{
+    padding: 15px;
+}
+
+.buttonWhite {
+    color: purple;
+    background-color: white;
+    border: solid 1px purple;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.buttonPurple {
+    color: white;
+    background-color: purple;
+    border: solid 1px white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+header{
+    background-color: purple;
+}
+#inHeader>h1{
+    margin: 0;
+    font-size: 65px;
+    color: white;
+    width: 50%;
+}
+#inHeader>h1>span{
+    color: chocolate;
+}
+#inHeader{
+    padding: 4%;
+}
+#inHeader>p{
+    width: 40%;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+}
+#company{
+    padding-left: 25vh;
+    padding-right: 25vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#company>img{
+    padding: 4%;
+}
+#tytleCompany{
+    text-align: center;
+}
+#threeDivs h3{
+    font-size: 50px;
+}
+#threeDivs p{
+    font-size: 18px;
+    line-height: 25px;
+}
+#threeDivs div{
+    width: 40%;
+    padding: 22px;
+}
+#threeDivs a{
+    color: rgb(58, 154, 214);
+    font-size: 17px;
+}
+#one{
+    margin-left: 53%;
+}
+#tow{
+    margin-left: 7%;
+}
+#three{
+    margin-left: 53%;
+}
