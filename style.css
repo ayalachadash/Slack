@@ -12,7 +12,7 @@ ul {
 }
 
 nav {
-    background-color: purple;
+    background-color: rgb(91, 0, 91);
     display: flex;
     justify-content: space-between;
     font-size: 18px;
@@ -31,86 +31,360 @@ nav ul li a {
     color: white;
     margin: 5px;
 }
-#signIn>button{
+
+#signIn>button {
     margin: 5px;
 }
 
-#signIn{
+#signIn {
     padding: 15px;
 }
 
 .buttonWhite {
-    color: purple;
+    color: rgb(91, 0, 91);
     background-color: white;
-    border: solid 1px purple;
+    border: solid 1px rgb(91, 0, 91);
     padding: 10px;
     border-radius: 5px;
     font-size: 16px;
 }
-
 .buttonPurple {
     color: white;
-    background-color: purple;
+    background-color: rgb(91, 0, 91);
     border: solid 1px white;
     padding: 10px;
     border-radius: 5px;
     font-size: 16px;
 }
-header{
-    background-color: purple;
+
+header {
+    background-color: rgb(91, 0, 91);
 }
-#inHeader>h1{
+
+#inHeader>h1 {
     margin: 0;
     font-size: 65px;
     color: white;
     width: 50%;
 }
-#inHeader>h1>span{
+
+#inHeader>h1>span {
     color: chocolate;
 }
-#inHeader{
+
+#inHeader {
     padding: 4%;
 }
-#inHeader>p{
+
+#inHeader>p {
     width: 40%;
     color: white;
     font-size: 20px;
     letter-spacing: 0.8px;
 }
-#company{
+
+#company {
     padding-left: 25vh;
     padding-right: 25vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-#company>img{
+
+#company>img {
     padding: 4%;
 }
-#tytleCompany{
+
+#tytleCompany {
     text-align: center;
 }
-#threeDivs h3{
+
+#threeDivs {
+    background-color: rgb(255, 249, 218);
+    display: grid;
+    grid-template-areas: ". one"
+        "tow ."
+        ". three";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2, 3);
+}
+
+#one {
+    /* margin-left: 53%; */
+    grid-area: one;
+}
+
+#tow {
+    margin-left: 6%;
+    grid-area: tow;
+}
+
+#three {
+    /* margin-left: 53%; */
+    grid-area: three;
+
+}
+
+#threeDivs h3 {
     font-size: 50px;
 }
-#threeDivs p{
+
+#threeDivs p {
     font-size: 18px;
     line-height: 25px;
 }
-#threeDivs div{
-    width: 40%;
+
+#threeDivs div {
+    width: 80%;
     padding: 22px;
 }
-#threeDivs a{
+
+#threeDivs a {
     color: rgb(58, 154, 214);
     font-size: 17px;
 }
-#one{
-    margin-left: 53%;
+
+
+
+#teams {
+    display: flex;
+    direction: inherit;
+    justify-content: space-around;
 }
-#tow{
-    margin-left: 7%;
+
+#teamsLargeSmall {
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
 }
-#three{
-    margin-left: 53%;
+
+#teamsLargeSmall>p {
+    font-size: 22px;
 }
+
+#teams div:nth-child(1) {
+    position: relative;
+}
+
+#teams span {
+    background-color: rgb(218, 218, 218);
+    border-radius: 25px;
+    padding: 12px;
+}
+
+#teams div:nth-child(1) span:nth-child(1) {
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    width: 40px;
+}
+
+#teams div:nth-child(1) span:nth-child(2) {
+    position: absolute;
+    top: 140px;
+    width: 40px;
+}
+
+#teams div:nth-child(1) span:nth-child(3) {
+    position: absolute;
+    top: 280px;
+    left: 100px;
+    width: 40px;
+}
+
+#teams div:nth-child(3) {
+    position: relative;
+}
+
+#teams div:nth-child(3) span:nth-child(1) {
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    width: 40px;
+}
+
+#teams div:nth-child(3) span:nth-child(2) {
+    position: absolute;
+    top: 140px;
+    right: 12px;
+    width: 40px;
+}
+
+#teams div:nth-child(3) span:nth-child(3) {
+    position: absolute;
+    top: 280px;
+    right: 100px;
+    width: 40px;
+}
+
+#statistic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+#statistic p {
+    font-size: 25px;
+    width: 30vh;
+    padding: 15px;
+}
+
+#statistic b {
+    color: rgb(91, 0, 91);
+    font-size: 70px;
+    display: block;
+}
+
+#takeDeeper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#takeDeeper div {
+    width: 265px;
+    background-color: white;
+    /* box-shadow: inset 10px 5px 25px 5px black, 5px 5px 12px 2px black; */
+    box-shadow: rgb(10, 9, 9, 0.2) 1px 3px 5px 5px;
+    padding: 15px;
+}
+
+#takeDeeper p {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+#takeDeeper a {
+    align-items: end;
+}
+
+#img {
+    background-color: rgb(255, 249, 218);
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#img>h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#welcome {
+    background-color: rgb(91, 0, 91);
+    padding-top: 13vh;
+    clip-path: ellipse(105% 100% at center top);
+    padding-top: 128px;
+    padding-bottom: 55px;
+    text-align: center;
+}
+
+#welcome h4 {
+    color: white;
+    font-size: 55px;
+    text-align: center;
+    margin-block-end: 60px;
+    margin-block-start: 0;
+}
+
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 22vh;
+    padding-right: 22vh;
+    line-height: 40px;
+}
+
+hr {
+    margin-left: 6vh;
+    margin-right: 6vh;
+    background-color: rgb(183, 183, 183);
+}
+
+footer ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+footer li a {
+    padding: 15px;
+    color: black;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    margin: 6vh;
+    color: gray;
+}
+
+footer div>a {
+    margin-right: 6vh;
+    margin-top: 1vh;
+    color: black;
+}
+
+@media screen and (max-width: 850px) {
+    nav {
+        display: none;
+    }
+
+    #navMobile {
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        padding: 3vh;
+    }
+
+    #navMobile:focus+nav,#navMobile:hover+nav,nav:hover {
+        display: block;
+        position: fixed;
+        top: 5px;
+        left: 10vh;
+        background-color: red;
+        width: 100%;
+    }
+
+    #one, #tow,#three {
+        text-align: center;
+        margin-left: 0;
+    }
+    #threeDivs{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #teams div:nth-child(1){
+        display: none;
+    }
+    #teams div:nth-child(3){
+        display: none;
+    }
+}
+
+#navMobile div:nth-child(2) {
+    font-size: 40px;
+    padding: 15px;
+}
+
+#navMobile a {
+    padding-right: 30px;
+}
+
+#navMobile img {
+    width: 200px;
+}
+
+@media screen and (min-width: 850px) {
+    #navMobile {
+        display: none;
+    }
+}
+
+/* #navMobile {
+
+} */
